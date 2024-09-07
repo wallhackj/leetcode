@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.leetcode.LengthOfLastWord;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

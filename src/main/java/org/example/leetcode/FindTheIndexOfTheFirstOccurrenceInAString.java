@@ -1,4 +1,4 @@
-package org.example;
+package org.example.leetcode;
 
 public class FindTheIndexOfTheFirstOccurrenceInAString {
     public static int strStr(String haystack, String needle) {

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.leetcode;
 
 public class LengthOfLastWord {
     public static int lengthOfLastWord(String s) {

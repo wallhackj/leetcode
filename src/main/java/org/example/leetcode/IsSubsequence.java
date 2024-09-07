@@ -1,4 +1,4 @@
-package org.example;
+package org.example.leetcode;
 
 public class IsSubsequence {
     public static boolean isSubsequence(String s, String t) {
