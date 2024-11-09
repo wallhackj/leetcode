@@ -1,5 +1,6 @@
 package org.example.leetcode;
 
+import org.example.leetcode.sub.TreeNode;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

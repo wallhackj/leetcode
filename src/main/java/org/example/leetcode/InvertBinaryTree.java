@@ -1,5 +1,7 @@
 package org.example.leetcode;
 
+import org.example.leetcode.sub.TreeNode;
+
 public class InvertBinaryTree {
     public static TreeNode invertTree(TreeNode root) {
         if (root == null) {

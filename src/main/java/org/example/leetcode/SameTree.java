@@ -1,5 +1,7 @@
 package org.example.leetcode;
 
+import org.example.leetcode.sub.TreeNode;
+
 public class SameTree {
     public static boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null || q == null) {
