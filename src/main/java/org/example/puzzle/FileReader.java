@@ -10,9 +10,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileReader {
-    private static final String PATH = "src/main/java/org/example/puzzle/inputs/input.txt";
+    private static String PATH = "src/main/java/org/example/puzzle/";
 
-    public static List<String> inputs() {
+    public static List<String> inputs(String fileName) {
+        PATH += fileName;
+
         try (RandomAccessFile reader = new RandomAccessFile(PATH, "r")) {
             FileChannel channel = reader.getChannel();
             ByteArrayOutputStream output = new ByteArrayOutputStream();

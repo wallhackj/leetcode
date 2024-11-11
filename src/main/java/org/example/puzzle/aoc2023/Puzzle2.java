@@ -1,4 +1,4 @@
-package org.example.puzzle;
+package org.example.puzzle.aoc2023;
 
 import java.util.Map;
 import java.util.regex.Matcher;
@@ -21,7 +21,7 @@ public class Puzzle2 {
     private static final Pattern WORD_PATTERN = Pattern.compile("one|two|three|four|five|six|seven|eight|nine");
 
     public static void main(String[] args) {
-        var strings = inputs();
+        var strings = inputs("input3.txt");
         var total = 0;
 
         for (String s : strings) {

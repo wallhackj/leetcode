@@ -1,4 +1,4 @@
-package org.example.puzzle;
+package org.example.puzzle.aoc2023;
 
 import static org.example.puzzle.FileReader.inputs;
 
@@ -8,7 +8,7 @@ public class Puzzle3 {
     static final int MAX_BLUE = 14;
 
     public static void main(String[] args) {
-        var games = inputs();
+        var games = inputs("input.txt");
         int sumOfPossibleGameIDs = 0;
 
         for (String game : games) {

@@ -1,10 +1,10 @@
-package org.example.puzzle;
+package org.example.puzzle.aoc2023;
 
 import static org.example.puzzle.FileReader.inputs;
 
 public class Puzzle1 {
     public static void main(String[] args) {
-        var strings = inputs();
+        var strings = inputs("input1.txt");
 //      var strings = List.of("1abc2", "pqr3stu8vwx", "a1b2c3d4e5f", "treb7uchet");  //TEST CASE
 
         int total = 0;
