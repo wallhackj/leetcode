@@ -2,7 +2,7 @@ package org.example.puzzle;
 
 import static org.example.puzzle.FileReader.inputs;
 
-public class Main {
+public class Puzzle3 {
     static final int MAX_RED = 12;
     static final int MAX_GREEN = 13;
     static final int MAX_BLUE = 14;
