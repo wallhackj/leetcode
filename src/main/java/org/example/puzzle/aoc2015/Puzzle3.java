@@ -1,7 +1,8 @@
 package org.example.puzzle.aoc2015;
 
-import static java.lang.Math.min;
+import static java.lang.Math.*;
 import static org.example.puzzle.FileReader.inputs;
+
 
 public class Puzzle3 {
     public static void main(String[] args) {
@@ -14,11 +15,8 @@ public class Puzzle3 {
             int w = Integer.parseInt(sp[1]);
             int h = Integer.parseInt(sp[2]);
 
-            var lw = l * w;
-            var wh = w * h;
-            var hl = h * l;
-
-            result += (2 * lw + 2 * wh + 2 * hl) + min(min(lw, wh), hl);
+            int bow = 2 * (l + w + h - max(l, max(w, h)));
+            result += bow + (l * w * h);
         }
 
         System.out.println(result);
