@@ -9,7 +9,7 @@ import static org.example.puzzle.FileReader.inputs;
 
 public class Puzzle6 {
     public static void main(String[] args) {
-        var puzzle = inputs("aoc2015/inputs/in6.txt");
+        var puzzle = inputs("aoc2015/inputs/in.txt");
         Pattern pattern = Pattern.compile("\\b(turn on|turn off|toggle)\\b", Pattern.CASE_INSENSITIVE);
         int[][] lights = new int[1000][1000];
 

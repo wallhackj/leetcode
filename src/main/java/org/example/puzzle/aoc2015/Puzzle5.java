@@ -8,8 +8,8 @@ import static org.example.puzzle.FileReader.inputs;
 
 public class Puzzle5 {
     public static void main(String[] args) {
-        var puzzle = inputs("aoc2015/inputs/in5.txt");
-        boolean dd, xy, vowel;
+        var puzzle = inputs("aoc2015/inputs/in.txt");
+        boolean dd, xy;
         int count = 0;
         char[] arr;
         Map<String, Integer> map;

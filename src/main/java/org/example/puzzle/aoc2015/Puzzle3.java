@@ -6,7 +6,7 @@ import static org.example.puzzle.FileReader.inputs;
 
 public class Puzzle3 {
     public static void main(String[] args) {
-        var puzzle = inputs("aoc2015/inputs/input3.txt");
+        var puzzle = inputs("aoc2015/inputs/in.txt");
         int result = 0;
 
         for (var line : puzzle) {
