@@ -1,4 +1,4 @@
-package org.example.puzzle.aoc2015.inputs;
+package org.example.puzzle.aoc2015;
 
 public class Puzzle10 {
     static String puzzle = "1321131112";
